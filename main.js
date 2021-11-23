@@ -11,8 +11,8 @@ function draw(){
 image(video,0,0,600,500);
 fill("#FFC0CB");
 stroke("#FFC0CB");
-circle(leftwristx,leftwristy,20);
-leftwristy_number=floor(Number(leftwristyg));
+circle(leftWristx,leftWristy,20);
+leftwristy_number=floor(Number(leftWristy));
 volume=leftwristy_number/500;
 document.getElementById("volume").innerHTML="volume: "+volume;
 song.setVolume(volume);
